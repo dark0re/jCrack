@@ -13,7 +13,7 @@ License:
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Credits:
-	Credit for the following classes and thier methods goes to
+	Credit for the following classes and their methods goes to
 	The University of Texas at Austin. They did a fantastic job on 
 	this library and it is much appreciated.
 	(md4.java/MD5crypt.java/Sha256Crypt.java/Sha512Crypt.java/smbencrypt.java)
@@ -32,7 +32,7 @@ Usage: ./jCrack.sh <wordlist> <hashlist> <hashtype[sha256,sha512]>
 Changes:
 =========
 - Added sha256 capability
-- Now able crack hashes variable length salts
+- Now able crack hashes with variable length salts
 
 Future Enhancements:
 ====================
