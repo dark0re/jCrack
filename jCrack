@@ -1,0 +1,2 @@
+#!/bin/sh
+java jCrack $1 $2 $3
