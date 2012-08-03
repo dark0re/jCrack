@@ -27,7 +27,17 @@ Developed by: Shane Peters
 Version: 0.1beta
 Bugs: prestigesec.com@gmail.com
 
-Usage: ./jCrack.sh <wordlist> <hashlist> <hashtype[sha256,sha512]>
+Usage:
+=======
+./jCrack.sh <wordlist> <hashlist> <hashtype[sha256,sha512]>
+
+Hashes should be in the format below:
+$6$7OTbh83L$VLyjw016rHCMqyYRVrtjDuP1/e2JLuRIomU6KHSQqn/H8ctnUIv/Gk6zn4FmcR97ZpKwvLDtlxSXH4fHp9RPF.
+
+$6$ == sha-512
+$5$ == sha-256
+
+Example(for hash above): ./jCrack.sh wordlist.txt hashlist.txt sha512
 
 Changes:
 =========
